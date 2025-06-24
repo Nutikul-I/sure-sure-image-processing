@@ -1,0 +1,10 @@
+stages:          
+  - build
+  
+build-job:      
+  stage: build
+  tags:
+    - stataging  # เพิ่ม Tag ให้ตรงกับ Runner
+  script:
+    - docker compose up -d --build
+    - docker network connect slip-checker-service_default suresure-service

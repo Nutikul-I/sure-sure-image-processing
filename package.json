@@ -1,0 +1,31 @@
+{
+  "name": "suresure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-sure.js",
+  "scripts": {
+    "start": "node node-sure.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon node-sure"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^4.3.2",
+    "@paulmillr/qr": "^0.3.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "jimp": "^1.6.0",
+    "jsqr": "^1.4.0",
+    "knex": "^3.1.0",
+    "mssql": "^11.0.1",
+    "node-tesseract-ocr": "^2.2.1",
+    "nodemon": "^3.1.9",
+    "python-shell": "^5.0.0",
+    "qrcode-reader": "^1.0.4",
+    "sharp": "^0.33.5",
+    "tesseract.js": "^5.1.1"
+  }
+}
